@@ -1,0 +1,90 @@
+/*
+  Project name(项目名称)：CSS_link 
+  File name(文件名): t
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/26 
+  Time(创建时间)： 20:20
+  Version(版本): 1.0
+  Description(描述)：
+  链接是网站的重要组成部分，几乎在每个网页上都能看到不少的链接，合理的设计链接的样式能够给网页的颜值加分。
+  链接有四种不同的状态，分别是 link、visited、active 和 hover，可以通过以下伪类选择器来为链接的四种状态设置不同的样式：
+:link：定义普通或未访问链接的样式；
+:visited：定义已经访问过链接的样式；
+:hover：定义当鼠标经过或悬停在链接上时的样式；
+:active：定义点击链接时的样式。
+如果不专门为链接设置样式，浏览器则会使用默认的链接样式。
+普通链接：带有下划线的蓝色文本；
+已访问的链接：带有下划线的紫色文本；
+点击链接时：带有下划线的红色文本；
+经过或悬停在链接上时：链接的外观并没有变化，它将保持先前状态的颜色。
+
+ */
+
+
+.t1 {
+    text-decoration: green;
+}
+
+.t1:link {
+    font-size: 25px;
+    border: 3px solid skyblue;
+    padding: 5px;
+    margin-left: 100px;
+    background: yellow;
+    color: fuchsia;
+}
+
+
+.t2 {
+    text-decoration: none;
+}
+
+.t2:link {
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+    background: #ccc;
+    color: black;
+}
+
+.t2:visited {
+    background: #FFFF99;
+    border: 1px;
+    color: red;
+}
+
+
+.t3 {
+    text-decoration: none;
+}
+
+.t3:link {
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 10px;
+    background: #ccc;
+    color: black;
+}
+
+.t3:visited {
+    background: #FFFF99;
+    border: 1px solid red;
+    color: red;
+}
+
+.t3:hover {
+    background: #9c6ae1;
+    border: 1px solid black;
+    color: black;
+}
+
+.t3:active {
+    background: #000;
+    border: 1px solid black;
+    color: white;
+}
+    
